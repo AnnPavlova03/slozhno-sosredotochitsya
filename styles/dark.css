@@ -16,6 +16,8 @@
   --accent-color-text:#ff0070;
   --cover:url(../images/cover-image-dark.png);
   --visually-hidden: block;
+  --outline:#FF007066;
+  
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -26,5 +28,6 @@
     --title-color: #db00ff;
     --cover:url(../images/cover-image-dark.png);
     --visually-hidden: block;
+    --outline:#FF007066;
   }
 }
